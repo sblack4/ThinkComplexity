@@ -109,7 +109,7 @@ def test_p(n, p, num):
     return count
 
 
-def main(script, n=26, p=0.1, num=1, *args):
+def main(script, n=26, p=0.1, num=100, *args):
     n = int(n)
     p = float(p)
     num = int(num)
