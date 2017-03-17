@@ -31,6 +31,7 @@ class LinearMap(object):
         raise KeyError
 
 
+
 class BetterMap(object):
     """A faster implementation of a map using a list of LinearMaps
     and the built-in function hash() to determine which LinearMap
@@ -98,7 +99,7 @@ class HashMap(object):
         """Makes a new map, twice as big, and rehashes the items."""
         new_map = BetterMap(self.num * 2)
 
-        for k, v in self.map.items():
+        for k, v in self.map.iteritems():
             new_map.add(k, v)
 
         self.map = new_map

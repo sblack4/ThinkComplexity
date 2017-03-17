@@ -27,6 +27,7 @@ class Vertex(object):
 
     def __init__(self, label=''):
         self.label = label
+        self.visited = False
 
     def __repr__(self):
         """Returns a string representation of this object that can
@@ -186,7 +187,7 @@ class Graph(dict):
         queue = [s]
         
         while queue:
-
+            print v
             # get the next vertex
             v = queue.pop(0)
 
@@ -199,6 +200,7 @@ class Graph(dict):
 
             # add its out vertices to the queue
             queue.extend(self.out_vertices(v))
+        print 'I visited them all'
 
 
 def is_odd(x):
@@ -216,7 +218,7 @@ def main(script, *args):
     g = Graph([v,w], [e])
     print g
 
-    vs = [Vertex(c) for c in 'abc']
+    vs = [Vertex(c) for c in 'abcvw']
     g = Graph(vs)
     g.add_regular_edges(2)
 
@@ -224,6 +226,7 @@ def main(script, *args):
 
     g2 = eval(repr(g))
     print g2
+    g.bfs(v)
 
 
 if __name__ == '__main__':
