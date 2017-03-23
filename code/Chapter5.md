@@ -14,13 +14,16 @@ See his [Zipf.py](Zipf.py), the gatsby.txt was downloaded from [http://www.guten
 
 
 ## Exercise 2  
->Read the code in Cdf.py. What is the order of growth for MakeCdfFromList and the methods Prob and Value?
+>Read the code in Cdf.py. What is the order of growth for MakeCdfFromList and the methods Prob and Value?  
 
+If you read them, they use a bisection search which is *O*(log*n*)  
+![CDF plot](cdf_dist.png)  
 
 
 ## Exercise 3  
 >Write a function called plot_ccdf that takes a list of values and the corresponding list of probabilities and plots the CCDF on a log-y scale.
->To test your function, use expovariate from the random module to generate 100 values from an exponential distribution. Plot the CCDF on a log-y scale and see if it falls on a straight line.
+>To test your function, use expovariate from the random module to generate 100 values from an exponential distribution. Plot the CCDF on a log-y scale and see if it falls on a straight line.  
+
 
 
 
