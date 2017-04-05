@@ -1,4 +1,5 @@
-# Chapter 5 Scale-free networks
+# Chapter 5 Scale-free networks 
+[http://greenteapress.com/complexity/html/thinkcomplexity006.html](http://greenteapress.com/complexity/html/thinkcomplexity006.html)
 
 ## Exercise 1  
 >Write a program that reads a text from a file, counts word frequencies, and prints one line for each word, in descending order of frequency. You can test it by downloading an out-of-copyright book in plain text format from gutenberg.net. You might want to remove punctuation from the words.
