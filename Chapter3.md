@@ -48,7 +48,7 @@ because Tim knows best :hankey:
 ## Exercise 3  
 >Write a function called bisection that takes a sorted list and a target value and returns the index of the value in the list, if it’s there, or None if it’s not.
 >Or you could read the documentation of the bisect module and use that!  
-See [Excercise3_3.py](Excercise3_3.py)
+See [Excercise3_3.py](./code/Excercise3_3.py)
 
 
 ## Exercise 4  
@@ -56,14 +56,14 @@ See [Excercise3_3.py](Excercise3_3.py)
 >The special method __len__ is invoked by the built-in function len. Write a __len__ method for BetterMap and use it in add.
 >Use a generator to write BetterMap.iteritems, and use it in resize.   
 
-See [MapSoln.py](MapSoln.py)
+See [MapSoln.py](./code/MapSoln.py)
 
 
 ## Exercise 5  
 >A drawbacks of hashtables is that the elements have to be hashable, which usually means they have to be immutable. That’s why, in Python, you can use tuples but not lists as keys in a dictionary. An alternative is to use a tree-based map.
 >Write an implementation of the map interface called TreeMap that uses a red-black tree to perform add and get in log time.  
 
-See [Tree.py](Tree.py)
+See [Tree.py](./code/Tree.py)
 
 
 ## Exercise 6  
@@ -71,7 +71,7 @@ See [Tree.py](Tree.py)
 >You can download my map implementations from thinkcomplex.com/Map.py, and the code I used in this section from thinkcomplex.com/listsum.py.
 >You will have to find a range of n that is big enough to show asymptotic behavior, but small enough to run quickly.  
 
-See [Excercise3_6.py](Excercise3_6.py)
+See [Excercise3_6.py](./code/Excercise3_6.py)
 
 
 ## Exercise 7  

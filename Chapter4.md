@@ -70,18 +70,18 @@ Film Actors, Power Grids, and the neural network in C. elegans
 >Write a method called clustering_coefficient that computes and returns the clustering coefficient as defined in the paper.
 >Make a graph that replicates the line marked C(p)/C(0) in Figure 2 of the paper. In other words, confirm that the clustering coefficient drops off slowly for small values of p.
 
-See [SmallWorldGraph.py](SmallWorldGraph.py) for 1 and 2 (his code)  
-See [SmallWorldGraphClustering.py](SmallWorldGraphClustering.py) for 3  
+See [SmallWorldGraph.py](./code/SmallWorldGraph.py) for 1 and 2 (his code)  
+See [SmallWorldGraphClustering.py](./code/SmallWorldGraphClustering.py) for 3  
 
-![Clustering Coefficient](clusteringCoefficient.png)
+![Clustering Coefficient](./content/clusteringCoefficient.png)
 
 ## Excercise 4-5
-See [SmallWorldPathLengths.py](SmallWorldPathLengths.py)
+See [SmallWorldPathLengths.py](./code/SmallWorldPathLengths.py)
 
 >Write an implementation of Dijkstra’s algorithm and use it to compute the average path length of a SmallWorldGraph.
 >Make a graph that replicates the line marked L(p)/L(0) in Figure 2 of the Watts and Strogatz paper. Confirm that the average path length drops off quickly for small values of p. What is the range of values for p that yield graphs with high clustering and low path lengths?  
 
-![Average Path Lengths](avgPathLength.png)
+![Average Path Lengths](./content/avgPathLength.png)
 
 High C(p)/C(0) and low L(p)/L(0) around 0.1  
 
@@ -93,7 +93,7 @@ High C(p)/C(0) and low L(p)/L(0) around 0.1
 >Experiment with different kinds of rewiring.
 >If a range of similar models yield similar behavior, we say that the results of the paper are robust.
 
-running See [SmallWorldGraph.py](SmallWorldGraph.py) yielded;   
+running See [SmallWorldGraph.py](./code/SmallWorldGraph.py) yielded;   
 char_length =  3.2556561086  
 char_length2 =  3.2556561086  
 char_length3 =  3.2556561086  
@@ -108,6 +108,6 @@ for the different algorithms included
 
 Holy :hankey: Dijkstra. Wow
 
-![number of edges and O(n)](randomEdgesOGrowth.png)
+![number of edges and O(n)](./content/randomEdgesOGrowth.png)
 
-![k coefficient and O(n)](kCoefOGrowth.png)
+![k coefficient and O(n)](./content/kCoefOGrowth.png)

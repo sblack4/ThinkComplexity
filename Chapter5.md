@@ -9,16 +9,16 @@
 >
 >You can download my solution from thinkcomplex.com/Zipf.py  
 
-See his [Zipf.py](Zipf.py), the gatsby.txt was downloaded from [http://www.gutenberg.org/files/11/11-0.txt](http://www.gutenberg.org/files/11/11-0.txt)  
+See his [Zipf.py](./code/Zipf.py), the gatsby.txt was downloaded from [http://www.gutenberg.org/files/11/11-0.txt](http://www.gutenberg.org/files/11/11-0.txt)  
 
-![Zipf frequencies plot](ZipfPlot.png)
+![Zipf frequencies plot](./content/ZipfPlot.png)
 
 
 ## Exercise 2  
 >Read the code in Cdf.py. What is the order of growth for MakeCdfFromList and the methods Prob and Value?  
 
 If you read them, they use a bisection search which is *O*(log*n*)  
-![CDF plot](cdf_dist.png)  
+![CDF plot](./content/cdf_dist.png)  
 
 
 ## Exercise 3  

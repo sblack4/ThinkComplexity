@@ -19,8 +19,8 @@ A forest is a graph with no cycles.
 
 ## Exercise 2  
 >In this exercise you write methods that will be useful for many of the Graph algorithms that are coming up.
->Download thinkcomplex.com/[GraphCode.py](GraphCode.py), which contains the code in this chapter. Run it as a script and make sure the test code in main does what you expect.
->Make a copy of GraphCode.py called [Graph.py](Graph.py). Add the following methods to Graph, adding test code as you go.
+>Download thinkcomplex.com/[GraphCode.py](./code/GraphCode.py), which contains the code in this chapter. Run it as a script and make sure the test code in main does what you expect.
+>Make a copy of GraphCode.py called [Graph.py](./code/Graph.py). Add the following methods to Graph, adding test code as you go.
 >Write a method named get_edge that takes two vertices and returns the edge between them if it exists and None otherwise. Hint: use a try statement.
 >Write a method named remove_edge that takes an edge and removes all references to it from the graph.
 >Write a method named vertices that returns a list of the vertices in a graph.
@@ -31,7 +31,7 @@ A forest is a graph with no cycles.
 >Test your methods by writing test code and checking the output. Then download thinkcomplex.com/GraphWorld.py. GraphWorld is a simple tool for generating visual representations of graphs. It is based on the World class in Swampy, so you might have to install Swampy first: see thinkpython.com/swampy.
 >Read through GraphWorld.py to get a sense of how it works. Then run it. It should import your Graph.py and then display a complete graph with 10 vertices.  
 
-See [GraphCode.py](GraphCode.py) and [Graph.py](Graph.py)  (mostly his code)
+See [GraphCode.py](./code/GraphCode.py) and [Graph.py](./code/Graph.py)  (mostly his code)
 
 
 ## Exercise 3  
@@ -45,26 +45,26 @@ See [GraphCode.py](GraphCode.py) and [Graph.py](Graph.py)  (mostly his code)
 >It is not always possible to create a regular graph with a given degree, so you should figure out and document the preconditions for this method.
 >To test your code, you might want to create a file named GraphTest.py that imports Graph.py and GraphWorld.py, then generates and displays the graphs you want to test.  
 
-See [GraphTest.py](GraphTest.py) (his code)
+See [GraphTest.py](./code/GraphTest.py) (his code)
 
 
 ## Exercise 4  
 >Create a file named RandomGraph.py and define a class named RandomGraph that inherits from Graph and provides a method named add_random_edges that takes a probability p as a parameter and, starting with an edgeless graph, adds edges at random so that the probability is p that there is an edge between any two nodes.  
 
-See [RandomGraph.py](RandomGraph.py) which is mostly his
+See [RandomGraph.py](./code/RandomGraph.py) which is mostly his
 
 
 ## Exercise 5  
 >Write a Graph method named is_connected that returns True if the Graph is connected and False otherwise.  
 
-See [Graph.py](Graph.py) 
+See [Graph.py](./code/Graph.py) 
 
 
 ## Exercise 6  
 >One of the properties that displays this kind of transition is connectedness. For a given size n, there is a critical value, p*, such that a random graph G(n, p) is unlikely to be connected if p < p* and very likely to be connected if p > p*.
 
 >Write a program that tests this result by generating random graphs for values of n and p and computes the fraction of them that are connected.
-See [RandomGraphTester.py](RandomGraphTester.py)
+See [RandomGraphTester.py](./code/RandomGraphTester.py)
 
 >How does the abruptness of the transition depend on n?
 the value of n does not affect the transition as much as the value of p.  
@@ -73,4 +73,4 @@ the value of n does not affect the transition as much as the value of p.
 ## Exercise 7  
 >Write a generator that yields an infinite sequence of alpha-numeric identifiers, starting with a1 through z1, then a2 through z2, and so on.
 
-[Excercise2_7.py](Excercise2_7.py)
+[Excercise2_7.py](./code/Excercise2_7.py)
